@@ -1,0 +1,19 @@
+body{
+  background: orange;
+
+}
+h1{
+
+}
+li{
+  border: 5px dotted brown;
+}
+
+#special{
+  border: 3px dashed black;
+}
+
+.checkbox{
+  border: 10px solid black;
+  text-decoration: line-through;
+}
