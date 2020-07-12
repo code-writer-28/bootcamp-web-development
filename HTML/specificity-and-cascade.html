@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Specificity and Cascade</title>
+  <style type="text/css">
+    <!-- Order of Specificity -->
+    <!-- Type Selectors -->
+    <!-- Class Selectors -->
+    <!-- Id's Selectors -->
+    <!-- Inline Selectors -->
+    body {
+      color: red;
+    }
+
+    ul {
+      color: blue;
+    }
+
+    li {
+      color: green;
+    }
+
+    .highlight {
+      color: orange;
+    }
+
+    #special {
+      color: brown;
+    }
+  </style>
+</head>
+
+<body>
+
+  <p>Hello Everyone !!!</p>
+
+  <ul>
+    <li id="special" class="highlight">satyam</li>
+    <li>shivam</li>
+    <li>sundaram</li>
+  </ul>
+</body>
+
+</html>
