@@ -1,19 +1,18 @@
-body{
+body {
   background: orange;
-
 }
-h1{
 
-}
-li{
+h1 {}
+
+li {
   border: 5px dotted brown;
 }
 
-#special{
+#special {
   border: 3px dashed black;
 }
 
-.checkbox{
+.checkbox {
   border: 10px solid black;
   text-decoration: line-through;
 }

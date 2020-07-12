@@ -1,16 +1,16 @@
 h1 {
-    color: red;
+  color: red;
 }
 
 h2 {
-    color: #ff9090;
+  color: #ff9090;
 }
 
 h3 {
-    color: rgb(200, 100, 000);
+  color: rgb(200, 100, 000);
 }
 
 h4,
 li {
-    color: rgba(100, 100, 150, 0.6);
+  color: rgba(100, 100, 150, 0.6);
 }
