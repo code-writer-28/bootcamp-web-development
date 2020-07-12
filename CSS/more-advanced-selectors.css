@@ -1,0 +1,25 @@
+/* star selectors */
+* {
+  border: 1px dashed black;
+}
+
+/* descendants selectors */
+li a {
+  border: 1px dashed black;
+}
+
+/* adjacent selectors */
+strong+ul {
+  border: 1px dashed black;
+}
+
+/* attribute selectors */
+a[href="https://www.google.com"] {
+  background: black;
+  text-decoration-color: whitesmoke;
+}
+
+/* nth of type */
+li:nth-of-type(2) {
+  background: green;
+}
