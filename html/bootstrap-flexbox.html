@@ -17,10 +17,32 @@
     <div class="container">
         <h1 class="text-center display-4">Flexbox</h1>
 
-        <div class="border border-dark d-flex justify-content-between" style="height: 200px;">
+        <div class="border border-dark d-flex justify-content align-items-end" style="height: 200px;">
             <button class="btn btn-info btn-lg">Large</button>
-            <button class="btn btn-warning">Large</button>
+            <button class="btn btn-warning">small</button>
+            <button class="btn btn-info">small</button>
         </div>
+
+
+        <div class="border border-dark d-flex flex-row-reverse justify-content align-items-end" style="height: 200px;">
+            <button class="btn btn-info btn-lg">Large</button>
+            <button class="btn btn-warning">small</button>
+            <button class="btn btn-info">small</button>
+        </div>
+
+        <div class="border border-dark d-flex flex-column justify-content align-items-end" style="height: 200px;">
+            <button class="btn btn-info btn-lg">Large</button>
+            <button class="btn btn-warning">small</button>
+            <button class="btn btn-info">small</button>
+        </div>
+
+        <div class="border border-dark d-flex flex-column-reverse justify-content-start align-items-end"
+            style="height: 200px;">
+            <button class="btn btn-info btn-lg">Large</button>
+            <button class="btn btn-warning">small</button>
+            <button class="btn btn-info">small</button>
+        </div>
+
     </div>
 
     <!-- Optional JavaScript -->
