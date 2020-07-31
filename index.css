@@ -1,10 +1,10 @@
 body {
-    background: url(https://wallpaperaccess.com/full/806427.jpg);
+    background: url(https://wallpaperaccess.com/full/512695.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: Lato;
-    color: white;
+    font-family: "Lato";
+    color: wheat;
     z-index: 1;
 }
 
@@ -27,4 +27,8 @@ hr {
     width: 200px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-family: "Sancreek";
 }
