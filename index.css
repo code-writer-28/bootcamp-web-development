@@ -2,6 +2,7 @@ body {
     background: url(https://wallpaperplay.com/walls/full/2/a/9/144462.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     font-family: Lato;
     color: white;
 }
