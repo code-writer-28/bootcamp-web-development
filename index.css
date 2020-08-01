@@ -34,7 +34,7 @@ hr {
     font-family: "Sancreek";
 }
 
-@media screen and (min-width : 120px) and (max-width:470px) {
+@media screen and (min-width : 120px) and (max-width:566px) {
     h1 {
         font-size: 3em;
         font-weight: bold;
