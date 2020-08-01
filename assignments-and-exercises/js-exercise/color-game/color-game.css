@@ -72,3 +72,14 @@ button:hover {
     display: inline-block;
     width: 20%;
 }
+
+@media screen and (min-width : 120px) and (max-width:566px) {
+    #colorsDisplay {
+        font-size: 130%;
+    }
+
+    #messageDisplay {
+        display: inline-block;
+        width: 23%;
+    }
+}
