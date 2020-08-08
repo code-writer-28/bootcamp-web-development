@@ -24,6 +24,10 @@ h1 {
 
 }
 
+.selected {
+    color: gold;
+}
+
 hr {
     width: 200px;
     border-top: 1px solid #f8f8f8;
@@ -42,5 +46,9 @@ hr {
 
     h3 {
         font-size: 1.2em;
+    }
+
+    .selected {
+        color: gold;
     }
 }
