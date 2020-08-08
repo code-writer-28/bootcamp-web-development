@@ -99,18 +99,18 @@ input:focus {
     .container {
         background: #f7f7f7;
         width: 270px;
-        margin: 75px auto;
-        box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+        margin: 100px auto;
+        box-shadow: 0 0 0.75px rgba(0, 0, 0, 0.2);
     }
 
     h1 {
         background: #2980b9;
         margin: 0;
-        padding: 10px 20px;
+        padding: 7.5px 15px;
         color: whitesmoke;
         text-transform: uppercase;
         font-weight: normal;
-        font-size: 24px;
+        font-size: 18px;
     }
 
     ul {
@@ -150,16 +150,16 @@ input:focus {
     input {
         box-sizing: border-box;
         width: 100%;
-        padding: 13px 13px 13px 20px;
+        padding: 9.3px 9.3px 9.3px 15px;
         background: #f7f7f7;
         font-size: 18px;
         color: #2980b9;
-        border: 3px solid rgba(0, 0, 0, 0);
+        border: 0.75px solid rgba(0, 0, 0, 0);
     }
 
     input:focus {
         background: #fff;
-        border: 3px solid #2980b9;
+        border: 0.75px solid #2980b9;
     }
 
     .completed {
