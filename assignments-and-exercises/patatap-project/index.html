@@ -307,53 +307,6 @@
                 }
             }
 		}
-		
-
-		var touch = false;
-		function touchStart(){
-			touch = true;
-		}
-
-		function touchEnd(){
-			touch = false;
-			//Finish all paths
-			myPaths = [];
-			for (var i = 0; i < 12; i++){
-				myPath = new paper.Path();
-				myPath.strokeColor = '#00ff00';
-				myPath.strokeWidth = 2;
-				myPaths.push(myPath);
-			}
-		}
-
-		function touchmove(ev){
-			if (!touch)
-				return;
-			//Draw path for each touch
-    		for (var i = 0; i < ev.changedTouches.length; i++){
-				var x1, y1;
-				x1 = ev.changedTouches[i].pageX;
-				y1 = ev.changedTouches[i].pageY;
-
-				myPaths[i].add(new Point(x1, y1));
-				paper.view.draw();
-			}
-			console.log(ev);
-		}
-
-		$('#myCanvas').hammer().on("drag", function(ev) {
-
-			for (var i = 0; i < ev.gesture.touches.length; i++)
-			{
-				var x1, y1;
-				x1 = ev.gesture.touches[i].pageX;
-				y1 = ev.gesture.touches[i].pageY;
-
-				myPaths[i].add(new Point(x1, y1));
-				paper.view.draw();
-
-			}
-		});
     </script>
 </head>
 
