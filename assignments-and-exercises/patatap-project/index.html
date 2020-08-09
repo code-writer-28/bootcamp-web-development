@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sounds & Animations</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/lib/paper-full.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sounds & Animations</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="assets/js/lib/paper-full.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.js"></script>
 
-    <script type="text/paperscript" canvas="myCanvas">
+	<script type="text/paperscript" canvas="myCanvas">
         var keyData = {
 			q: {
 				sound: new Howl({
@@ -165,7 +165,121 @@
 				sound: new Howl({
 		  		    src: ['assets/sounds/moon.mp3']
 				}),
-				color: '#2c3e50'
+				color: '#F7BB97'
+			},
+			1: {
+				sound: new Howl({
+		  		    src: ['assets/sounds/piston-2.mp3']
+				}),
+				color: '#DD5E89'
+			},
+			2: {
+				sound: new Howl({
+					src: ['assets/sounds/moon.mp3']
+				}),
+				color: '#F45C43'
+			},
+			3: {
+				sound: new Howl({
+					src: ['assets/sounds/zig-zag.mp3']
+				}),
+				color: '#EB3349'
+			},
+			4: {
+				sound: new Howl({
+					src: ['assets/sounds/wipe.mp3']
+				}),
+				color: '#93F9B9'
+			},
+			5: {
+				sound: new Howl({
+					src: ['assets/sounds/veil.mp3']
+				}),
+				color: '#1D976C'
+			},
+			6: {
+				sound: new Howl({
+		  		    src: ['assets/sounds/piston-2.mp3']
+				}),
+				color: '#FF8008'
+			},
+			7: {
+				sound: new Howl({
+					src: ['assets/sounds/bubbles.mp3']
+				}),
+				color: '#FFC837'
+			},
+			8: {
+				sound: new Howl({
+		  		    src: ['assets/sounds/piston-2.mp3']
+				}),
+				color: '#3A6073'
+			},
+			9: {
+				sound: new Howl({
+					src: ['assets/sounds/wipe.mp3']
+				}),
+				color: '#16222A'
+			},
+			0: {
+				sound: new Howl({
+					src: ['assets/sounds/confetti.mp3']
+				}),
+				color: '#928DAB'
+			},
+			"-" : {
+				sound: new Howl({
+		  		    src: ['assets/sounds/piston-2.mp3']
+				}),
+				color: '#1F1C2C'
+			},
+			"=" : {
+				sound: new Howl({
+					src: ['assets/sounds/moon.mp3']
+				}),
+				color: '#516395'
+			},
+			"." : {
+				sound: new Howl({
+		  		    src: ['assets/sounds/piston-2.mp3']
+				}),
+				color: '#614385'
+			},
+			"," : {
+				sound: new Howl({
+		  		    src: ['assets/sounds/piston-2.mp3']
+				}),
+				color: '#8E54E9'
+			},
+			"[" : {
+				sound: new Howl({
+		  		    src: ['assets/sounds/piston-2.mp3']
+				}),
+				color: '#4776E6'
+			},
+			"]" : {
+				sound: new Howl({
+		  		    src: ['assets/sounds/piston-2.mp3']
+				}),
+				color: '#85D8CE'
+			},
+			"/" : {
+				sound: new Howl({
+		  		    src: ['assets/sounds/piston-2.mp3']
+				}),
+				color: '#085078'
+			},
+			";" : {
+				sound: new Howl({
+		  		    src: ['assets/sounds/piston-2.mp3']
+				}),
+				color: '#2BC0E4'
+			},
+			"'" : {
+				sound: new Howl({
+		  		    src: ['assets/sounds/piston-2.mp3']
+				}),
+				color: '#EAECC6'
 			}
         }
 
@@ -197,7 +311,7 @@
 </head>
 
 <body>
-    <canvas id="myCanvas" resize></canvas>
+	<canvas id="myCanvas" resize></canvas>
 </body>
 
 </html>
