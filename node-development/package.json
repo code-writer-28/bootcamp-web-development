@@ -1,0 +1,14 @@
+{
+  "name": "sunset_api_example",
+  "version": "1.0.0",
+  "description": "Sunset API Example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shivam Thombre",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
